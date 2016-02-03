@@ -28,3 +28,11 @@ git add .
 git commit -m ".gitignore funciona"
 ---------------------------------------------------------------------------------
 
+---------------------------------------------------------------------------------
+mostrar la información de los commit
+---------------------------------------------------------------------------------
+git log
+git log --pretty=oneline
+ git log --pretty=format:"%h - %an, %ar : %s"
+ $ git log --since=2.weeks
+gitk # es para ver los cambios de manera gráfica
