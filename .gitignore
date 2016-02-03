@@ -1,4 +1,5 @@
+#[datos].txt
 datos.txt
-dato1.txt
+datos*.txt
 *.dat
 *~
