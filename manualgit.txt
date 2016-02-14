@@ -36,3 +36,37 @@ git log --pretty=oneline
  git log --pretty=format:"%h - %an, %ar : %s"
  $ git log --since=2.weeks
 gitk # es para ver los cambios de manera gráfica
+
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Deshaciendo comitteds
+---------------------------------------------------------------------------------
+git commit --amend
+git status
+git reset HEAD  documento.txt
+
+---------------------------------------------------------------------------------
+Tags
+---------------------------------------------------------------------------------
+git tag
+git tag -a v1 -m "primera version"
+git show
+git tag v1
+
+$ git log --pretty=oneline
+$ git tag -a v1.2 9fceb02
+
+-------------------------------------------------------
+branch
+------------------------------------------------------
+git branch mario
+git branch
+git checkout mario
+---------------------------
+git checkout mario1 -b
+
+git checkout master
+git merge mario1
+
+git branch -d mario1
+git brach -v  # ver modificaiones de la ultima rama
